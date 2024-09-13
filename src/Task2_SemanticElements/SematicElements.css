@@ -1,0 +1,181 @@
+.OuterNav {
+  background-color: rgba(0, 0, 0, 0.171);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.NavBar {
+  display: flex;
+}
+
+.NavBar a {
+  color: black;
+  text-decoration: none;
+}
+
+.outerForm {
+  display: flex;
+  justify-content: space-around;
+  gap: 50%;
+}
+
+.DisplayName {
+  text-wrap: nowrap;
+  text-decoration: none;
+}
+
+.DisplayName1 {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.OuterNav.figure.img {
+  min-height: 20px;
+}
+
+.formStyle {
+  display: flex;
+  flex-direction: column;
+}
+
+ul:hover {
+  transform: scaleX(1.1);
+}
+
+.SideBar {
+  min-width: 15%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.171);
+}
+
+figure img {
+  margin: 0;
+  padding: 0;
+}
+
+.SideAlign {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.363);
+  min-height: 90vh;
+}
+
+.FetchApi {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 2%;
+  column-gap: 2%;
+  margin-top: 5%;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.FetchApi > div {
+  background-color: #ffffff;
+  border: 1px solid #00000069;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.507);
+  color: #333;
+}
+
+.FetchApi > div:hover {
+  transform: scale(1.01);
+}
+
+.FetchApi2 {
+  border: 1px solid rgba(0, 0, 0, 0.411);
+}
+
+.ssBar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  border: 1px solid;
+}
+
+.ssBar button {
+  border: none;
+}
+
+.ssBar button:hover {
+  transform: scaleX(1.1);
+}
+
+.sidebar {
+  height: 100vh;
+  width: 20vw;
+  background-color: #fff;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar-content {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar a {
+  padding: 6.5px;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 0.5px solid black;
+}
+
+.sidebar-content a:hover {
+  background-color: #555;
+}
+
+.sideApi {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.mainPage {
+  height: 100%;
+  width: 100%;
+}
+
+.mainPageAlign {
+  width: 100%;
+}
+
+.Align1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5px;
+  gap: 20%;
+  outline: 0.5px solid rgba(0, 0, 0, 0.315);
+  width: 40rem;
+}
+
+.SearchBar {
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  height: 10px;
+  width: 10px;
+  padding: 25px;
+  gap: 10px;
+}
+
+.SearchBar input,
+button {
+  padding: 7px;
+}
+
+.innerProd {
+  display: flex;
+  flex-direction: column;
+}
+
+.innerProd > div {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.514);
+}

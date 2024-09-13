@@ -1,0 +1,41 @@
+.LoginOuter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.OuterForm {
+  padding: 6.5%;
+  height: 30%;
+  width: 28%;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.LoginOuter label,
+input {
+  padding: 3px;
+}
+
+.LoginOuter button {
+  margin-top: 10px;
+  padding: 5px;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.LoginOuter button:hover {
+  background-color: rgb(54, 248, 54);
+}
+
+.LoginOuter input:hover {
+  transform: scaleX(1.1);
+}
+
+.infoTag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}

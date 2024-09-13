@@ -1,0 +1,43 @@
+.FormOuter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.FormOuter button {
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.displayName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.displayName li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.displayName button {
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.displayName button:hover {
+  background-color: rgba(255, 0, 0, 0.733);
+}
+
+.FormOuter button:hover {
+  background-color: rgba(6, 216, 6, 0.918);
+}
